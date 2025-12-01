@@ -4,7 +4,7 @@
 
 {% block body %}
 
-    <h1>Liste des entreprise</h1>
+    <h1>Liste des entreprises</h1>
 
     {% for entreprise in entreprises %}
         <a href="{{ path('show_entreprise', {'id': entreprise.id}) }}">{{ entreprise }}</a> 
